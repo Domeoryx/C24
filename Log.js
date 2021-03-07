@@ -2,7 +2,7 @@ class log {
     constructor(x, y, height, angle) {
       var options = {
           'restitution':0.8,
-          'friction':0.3,
+          'friction':1.0,
           'density':1.0
       }
       this.body = Bodies.rectangle(x, y, 30, height, options);
